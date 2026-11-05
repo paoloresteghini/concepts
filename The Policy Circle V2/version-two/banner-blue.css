@@ -86,3 +86,17 @@
 .bd-forum{gap:18px;background:var(--navy)}
 .bd-forum .bd-data,.bd-forum .bd-circles{border:0}
 @media(max-width:700px){.bd-forum{gap:16px}}
+
+/* Blue Forum review: equal breathing room around the headline and feature group. */
+.bd-opening{--bd-section-space:56px;padding-top:var(--bd-section-space)}
+.bd-opening h1{margin-bottom:var(--bd-section-space)}
+.bd-bottom{margin-top:var(--bd-section-space)}
+body.blue-forum .site-header.tpc-header .tpc-navigation{font-size:clamp(14px,1vw,15px)}
+body.blue-forum .tpc-donate{font-size:15px}
+@media(max-width:1180px){
+  body.blue-forum .site-header.tpc-header .tpc-navigation{font-size:19px}
+  body.blue-forum .tpc-disclosure,body.blue-forum .tpc-nav-direct>a{font-size:18px}
+  body.blue-forum .tpc-mobile-toggle,body.blue-forum .tpc-search-label{font-size:15px}
+  body.blue-forum .tpc-donate{font-size:16px}
+}
+@media(max-width:700px){.bd-opening{--bd-section-space:36px}}
