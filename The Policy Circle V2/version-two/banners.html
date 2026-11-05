@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Living Circle | Four banner studies</title>
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+:root{font-family:Montserrat,sans-serif;color:#033147;background:#f2eee7}*{box-sizing:border-box}body{margin:0}button,a{color:inherit;font:inherit}a{text-underline-offset:4px}button{cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #9b481f;outline-offset:4px}::selection{background:#b9cddb}header{padding:12px 24px;background:#f2eee7;display:flex;align-items:center;gap:24px;border-bottom:1px solid #b3997c}h1{font-family:brandon-grotesque,sans-serif;font-size:23px;line-height:1;font-weight:500;margin:0;white-space:nowrap}.choices{display:flex;gap:5px;margin:auto}.choices button{padding:11px 17px;border:1px solid transparent;background:transparent;font-size:13px;border-radius:3px;min-height:42px}.choices button[aria-pressed=true]{background:#033147;color:white}.choices button:hover{border-color:#033147}.open{font-size:13px;display:inline-flex;align-items:center;gap:8px;min-height:42px;white-space:nowrap}.open svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5}.context{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:9px 24px;background:#e6e1d8;font-size:11px;line-height:1.5}.context p{margin:0}.context a{white-space:nowrap}iframe{display:block;width:100%;height:calc(100svh - 108px);min-height:620px;border:0;background:#033147}@media(max-width:1150px){header{flex-wrap:wrap;gap:9px 16px;padding:11px 16px}h1{font-size:21px}.choices{order:3;width:100%;margin:0;gap:4px}.choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.choices button{padding:10px 4px;font-size:12px}.open{margin-left:auto}.context{padding:8px 16px}.context p{max-width:42ch}.context a{display:none}iframe{height:calc(100svh - 203px)}}
+</style>
+<style>
+body{height:100svh;display:grid;grid-template-rows:auto auto minmax(0,1fr)}
+iframe{height:100%;min-height:0}
+</style>
+</head>
+<body>
+<header>
+<h1>Living Circle, banner studies</h1>
+<nav class="choices" aria-label="Choose a banner study">
+<button type="button" data-study="columns" aria-pressed="true">A. Three Columns</button>
+<button type="button" data-study="statement" aria-pressed="false">B. The Statement</button>
+<button type="button" data-study="briefing" aria-pressed="false">C. The Horizon</button>
+<button type="button" data-study="blue" aria-pressed="false">D. Blue Forum</button>
+</nav>
+<a class="open" id="open-study" href="banner-columns.html" target="_blank" rel="noopener">Open full page <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+</header>
+<div class="context"><p id="study-description" aria-live="polite">Three equal photo columns, a larger mission statement, and a clear navy canvas.</p><a href="./">Compare the previous banner</a></div>
+<iframe id="study-frame" src="banner-columns.html" title="Three Columns, Living Circle homepage" allow="fullscreen"></iframe>
+<script>
+const studies={columns:{title:'Three Columns',description:'Three equal photo columns, a larger mission statement, and a clear navy canvas.'},statement:{title:'The Statement',description:'Monumental mission typography beside three photographic editorial features.'},briefing:{title:'The Horizon',description:'An oversized mission statement above one continuous photographic triptych.'},blue:{title:'Blue Forum',description:'The familiar editorial composition from Version 4, tidied up on a deep blue background.'}};
+function selectStudy(key){
+ if(!Object.hasOwn(studies,key))key='columns';
+ const study=studies[key];
+ document.querySelectorAll('[data-study]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.study===key)));
+ const path=`banner-${key}.html`;
+ document.querySelector('#study-frame').src=path;
+ document.querySelector('#study-frame').title=`${study.title}, Living Circle homepage`;
+ document.querySelector('#open-study').href=path;
+ document.querySelector('#study-description').textContent=study.description;
+ history.replaceState(null,'',`#${key}`);
+}
+document.querySelectorAll('[data-study]').forEach(button=>button.addEventListener('click',()=>selectStudy(button.dataset.study)));
+if(location.hash)selectStudy(location.hash.slice(1));
+</script>
+</body>
+</html>

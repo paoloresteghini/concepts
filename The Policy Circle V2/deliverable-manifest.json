@@ -1,0 +1,170 @@
+{
+  "project": "The Policy Circle homepage studies",
+  "date": "2026-11-04",
+  "status": "revised local alternatives, Living Circle visually preferred, final selection pending",
+  "stack": "Vanilla HTML, CSS and JavaScript; self-hosted shared assets",
+  "preview": "http://127.0.0.1:4173/",
+  "directions": [
+    {
+      "name": "The Living Circle",
+      "path": "version-two/index.html",
+      "leadImprovementRounds": 2,
+      "userPreference": "preferred visual direction, corrected editorial hierarchy"
+    },
+    {
+      "name": "The Open Forum",
+      "path": "version-four/index.html",
+      "leadImprovementRounds": 2
+    },
+    {
+      "name": "The Civic Current",
+      "path": "version-five/index.html",
+      "leadImprovementRounds": 2
+    }
+  ],
+  "brandReferences": [
+    "BRAND.md",
+    "brand-guidelines.json",
+    "DESIGN.md",
+    ".impeccable/design.json"
+  ],
+  "research": "research/RESEARCH.md",
+  "reviewLedger": "reviews/revision-two/REVIEW.md",
+  "verification": [
+    "reviews/revision-two/final/viewport-verification.json",
+    "reviews/revision-two/final/behavior-verification.json"
+  ],
+  "futureImplementation": "Bespoke WordPress theme after direction selection",
+  "deployment": "No staging or production changes",
+  "retired": [
+    "version-one/index.html",
+    "version-three/index.html"
+  ],
+  "mainProjectLearning": "research/TPC-MAIN-LEARNINGS.md",
+  "finishReview": "reviews/revision-two/FINISH-REVIEW.md",
+  "verifiedEditorialHierarchy": true,
+  "bannerStudies": {
+    "parent": "The Living Circle",
+    "comparison": "version-two/banners.html",
+    "selection": "pending",
+    "leadReviewPasses": 2,
+    "paths": [
+      "version-two/banner-columns.html",
+      "version-two/banner-statement.html",
+      "version-two/banner-briefing.html",
+      "version-two/banner-blue.html"
+    ],
+    "review": "reviews/banners/REVIEW.md",
+    "finishReview": "reviews/banners/FINISH-REVIEW.md",
+    "verification": [
+      "reviews/banners/final/viewport-verification.json",
+      "reviews/banners/final/behavior-verification.json"
+    ],
+    "lowerHomepageUnchanged": false,
+    "finishDisposition": "ship for all active local prototypes; selection pending",
+    "documentation": "reviews/banners/DOCUMENTATION.md",
+    "activeNames": [
+      "Three Columns",
+      "The Statement",
+      "The Horizon",
+      "Blue Forum"
+    ],
+    "retiredBanner": "The Briefing, rejected because its horizontal bands read as stacked",
+    "replacementReview": "reviews/banners/HORIZON-FINISH-REVIEW.md",
+    "blueForum": {
+      "reference": "version-four/index.html",
+      "path": "version-two/banner-blue.html",
+      "scope": "opening only, lower Living Circle unchanged",
+      "review": "reviews/banner-d/REVIEW.md",
+      "finishReview": "reviews/banner-d/FINISH-REVIEW.md",
+      "documentation": "reviews/banner-d/DOCUMENTATION.md",
+      "status": "ship for local review, selection pending",
+      "cohesionRevision": {
+        "scope": "D feature styling only; full D HTML unchanged",
+        "style": "one joined pale canvas, aligned edges, attached reading areas, consistent supporting rows",
+        "review": "reviews/blue-connected/REVIEW.md",
+        "finishReview": "reviews/blue-connected/FINISH-REVIEW.md",
+        "documentation": "reviews/blue-connected/DOCUMENTATION.md",
+        "verification": [
+          "reviews/blue-connected/final/verification.json",
+          "reviews/blue-connected/final/source-verification.json"
+        ],
+        "leadReviewPasses": 2,
+        "status": "ship for local review"
+      },
+      "spacingRefinement": {
+        "desktopGap": "18px",
+        "phoneGap": "16px",
+        "review": "reviews/blue-spacing/FINISH-REVIEW.md",
+        "status": "ship for local review",
+        "documentation": "reviews/blue-spacing/DOCUMENTATION.md"
+      }
+    },
+    "authorizedLowerChange": "Events restored with both actual recent features; other main content unchanged."
+  },
+  "sharedNavigation": {
+    "variants": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "files": [
+      "version-two/shared-header.html",
+      "version-two/navigation.css",
+      "version-two/navigation.js"
+    ],
+    "source": "research/navigation-source.json",
+    "review": "reviews/navigation/REVIEW.md",
+    "finishReview": "reviews/navigation/FINISH-REVIEW.md",
+    "documentation": "reviews/navigation/DOCUMENTATION.md",
+    "verification": [
+      "reviews/navigation/final/source-verification.json",
+      "reviews/navigation/final/behavior-confirmation.json"
+    ],
+    "status": "ship for local review",
+    "bannerAndLowerContentUnchanged": true,
+    "preservationScope": "Navigation-only completion preserved main content; subsequent Events restoration is a separate authorized correction."
+  },
+  "eventsRestoration": {
+    "variants": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "research/events-source.json",
+    "files": [
+      "version-two/events-section.html",
+      "version-two/events.css"
+    ],
+    "review": "reviews/events/REVIEW.md",
+    "finishReview": "reviews/events/FINISH-REVIEW.md",
+    "documentation": "reviews/events/DOCUMENTATION.md",
+    "verification": [
+      "reviews/events/final/verification.json",
+      "reviews/events/final/source-verification.json"
+    ],
+    "status": "ship for local review",
+    "scope": "Both existing recent events restored; upcoming empty state retained; main outside Events unchanged."
+  },
+  "scrollReveals": {
+    "variants": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "file": "version-two/scroll-reveal.js",
+    "durationMs": 650,
+    "desktopDistancePx": 24,
+    "phoneDistancePx": 18,
+    "maximumSiblingDelayMs": 120,
+    "once": true,
+    "review": "reviews/scroll-reveal/REVIEW.md",
+    "finishReview": "reviews/scroll-reveal/FINISH-REVIEW.md",
+    "documentation": "reviews/scroll-reveal/DOCUMENTATION.md",
+    "status": "ship for local review",
+    "bodyAndOlderDirectionsUnchanged": true
+  }
+}

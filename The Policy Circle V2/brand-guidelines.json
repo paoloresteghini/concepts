@@ -1,0 +1,104 @@
+{
+  "schema": "policy-circle.design-reference.v1",
+  "status": "observed brand plus proposed homepage interpretation, not official brand policy",
+  "observedAt": "2026-11-04",
+  "source": "https://policycirclstg.wpenginepowered.com/?review=nov4-final",
+  "observed": {
+    "colors": {
+      "navy": "#033147",
+      "rust": "#CD6C33",
+      "sand": "#B3997C",
+      "blue": "#00557D",
+      "neutral": "#C6C1BA",
+      "white": "#FFFFFF",
+      "iceBlue": "#B9CDDB"
+    },
+    "fonts": {
+      "body": "Montserrat",
+      "brandDisplay": "brandon-grotesque",
+      "expressiveItalic": "the-seasons"
+    },
+    "logo": "assets/logo.svg",
+    "mission": "The Policy Circle is a national, non-partisan 501c3 that informs, equips, and connects women to be more impactful citizens.",
+    "headline": "Equipping women to lead in their communities.",
+    "additionalColorEvidence": "ThePolicyCircle/DESIGN.md extracted existing theme palette, read with TPC Main project records"
+  },
+  "interpretation": {
+    "voice": [
+      "informed",
+      "constructive",
+      "welcoming",
+      "capable",
+      "specific"
+    ],
+    "mechanism": [
+      "policy understanding",
+      "conversation",
+      "confidence",
+      "civic action"
+    ],
+    "primaryActions": [
+      "Explore Policy Briefs",
+      "Learn About Policy Circles",
+      "Explore CLER"
+    ],
+    "imageRule": "Reuse actual organization assets with accurate alt text and preserved provenance.",
+    "motionRule": "One signature interaction per direction, native scroll, visible default content, touch and keyboard parity, reduced-motion fallback.",
+    "compositionRule": "Overlap must connect meaning, vary density and scale, never cover reading text or controls.",
+    "contentAuthority": "research/home-copy.txt and research/links.json",
+    "forbidden": [
+      "fabricated statistics",
+      "invented testimonials",
+      "invented events",
+      "dummy forms",
+      "em dash",
+      "generic equal-card page scaffold",
+      "gradient text",
+      "decorative analytics"
+    ]
+  },
+  "proposedExtension": {
+    "editorialFace": "Bodoni Moda",
+    "use": "Version one only; not claimed as existing brand typography"
+  },
+  "directions": {
+    "two": "The Living Circle, priorities-first revision",
+    "four": "The Open Forum",
+    "five": "The Civic Current"
+  },
+  "futureWordPress": {
+    "approach": "Bespoke theme after user selects a direction",
+    "content": "Keep policy briefs, programs, stories, event state, newsletter and navigation editable and independently structured"
+  },
+  "editorialHierarchy": {
+    "source": "TPC Main chat and project source records, reviewed 2026-11-04",
+    "purpose": "Expose three current manually curated features at the top",
+    "currentFeatures": [
+      "Data Centers",
+      "Meaningful Conversations. Stronger Communities.",
+      "Your Next Step into Leadership"
+    ],
+    "constraint": "All three visible together on desktop with imagery and direct actions, no carousel or selector required for discovery",
+    "editableFields": [
+      "image",
+      "alt",
+      "category",
+      "headline",
+      "optional summary",
+      "destination",
+      "CTA text"
+    ],
+    "doNotConfuseWith": "Inform / Equip / Connect methodology"
+  },
+  "userFeedback": {
+    "preferred": "The Living Circle",
+    "rejected": [
+      "The Civic Journal",
+      "Common Ground"
+    ],
+    "newAlternatives": [
+      "The Open Forum",
+      "The Civic Current"
+    ]
+  }
+}

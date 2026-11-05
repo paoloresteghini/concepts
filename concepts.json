@@ -1,0 +1,29 @@
+[
+  {
+    "name": "The Policy Circle",
+    "slug": "the-policy-circle",
+    "source": "The Policy Circle V2",
+    "entry": "version-two/index.html",
+    "include": [
+      "index.html",
+      "assets/*.css",
+      "assets/*.jpg",
+      "assets/*.webp",
+      "assets/*.svg",
+      "assets/*.ttf",
+      "assets/*.woff2",
+      "assets/*-OFL.txt",
+      "previews/*.png",
+      "version-two/*.html",
+      "version-two/*.css",
+      "version-two/*.js",
+      "version-two/*.ttf",
+      "version-four/*.html",
+      "version-four/*.css",
+      "version-four/*.js",
+      "version-five/*.html",
+      "version-five/*.css",
+      "version-five/*.js"
+    ]
+  }
+]

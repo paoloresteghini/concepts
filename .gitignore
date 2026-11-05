@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+_site/
+skill-observations/
+**/skill-observations/
+**/research/
+**/reviews/
+**/.impeccable/
+**/.playwright-mcp/
+**/*.zip

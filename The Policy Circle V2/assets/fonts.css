@@ -1,0 +1,47 @@
+@font-face{font-family:'brandon-grotesque';src:url('./brandon-grotesque-400-normal.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;}
+@font-face{font-family:'brandon-grotesque';src:url('./brandon-grotesque-700-normal.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap;}
+@font-face{font-family:'brandon-grotesque';src:url('./brandon-grotesque-500-normal.woff2') format('woff2');font-style:normal;font-weight:500;font-display:swap;}
+@font-face{font-family:'brandon-grotesque';src:url('./brandon-grotesque-900-normal.woff2') format('woff2');font-style:normal;font-weight:900;font-display:swap;}
+@font-face{font-family:'the-seasons';src:url('./the-seasons-400-italic.woff2') format('woff2');font-style:italic;font-weight:400;font-display:swap;}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./bodoni-0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./bodoni-1.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./bodoni-2.ttf) format('truetype');
+}@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(montserrat-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(montserrat-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(montserrat-600.ttf) format('truetype');
+}
