@@ -16,6 +16,7 @@ Open http://127.0.0.1:4173/concepts/the-policy-circle/.
 | Client | Homepage | Review alternatives |
 | --- | --- | --- |
 | The Policy Circle | https://concepts.paolor.co.uk/the-policy-circle/ | https://concepts.paolor.co.uk/the-policy-circle/directions.html |
+| Stirrups Hotel | https://concepts.paolor.co.uk/stirrups-hotel/ | Selected Through the trees homepage |
 
 Banner studies: append `version-two/banners.html` to the client base URL. Living Circle is the provisional homepage entry. A final direction and banner remain unselected. Existing staging destinations are preserved.
 
