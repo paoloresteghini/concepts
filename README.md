@@ -15,13 +15,13 @@ Open http://127.0.0.1:4173/concepts/the-policy-circle/.
 
 | Client | Homepage | Review alternatives |
 | --- | --- | --- |
-| The Policy Circle | https://paoloresteghini.github.io/concepts/the-policy-circle/ | https://paoloresteghini.github.io/concepts/the-policy-circle/directions.html |
+| The Policy Circle | https://concepts.paolor.co.uk/the-policy-circle/ | https://concepts.paolor.co.uk/the-policy-circle/directions.html |
 
 Banner studies: append `version-two/banners.html` to the client base URL. Living Circle is the provisional homepage entry. A final direction and banner remain unselected. Existing staging destinations are preserved.
 
 ## Current release status
 
-Repository setup and local preview preparation do not publish these addresses. The workflow runs only by manual dispatch after publication is authorized. GitHub Pages must be configured with GitHub Actions as its source.
+The Policy Circle preview was published through GitHub Actions on November 5, 2026. GitHub Pages is configured with concepts.paolor.co.uk as its custom domain. The workflow remains manual for future releases. The custom domain serves the artifact at its root, so client addresses omit the /concepts/ repository prefix used by the local preview.
 
 Each client folder is self-contained, including its typography and font files. Policy Circle retains its existing typography as instructed. Client-specific design rules belong inside that client folder; root rules cover the common delivery workflow.
 

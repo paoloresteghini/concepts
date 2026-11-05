@@ -13,12 +13,12 @@ Build persuasive, working homepage concepts for proactive outreach or requested 
 ## Structure
 
 - Register clients in concepts.json with a unique, lowercase, hyphenated slug, source directory, entry page, and explicit file allowlist.
-- Stable client URL: https://paoloresteghini.github.io/concepts/<client-slug>/.
+- Stable client URL: https://concepts.paolor.co.uk/<client-slug>/.
 - New clients should use <client-slug>/ as their source folder. Preserve the existing Policy Circle folder as the first imported concept.
 - Keep each client's images, fonts, styles, and scripts inside that client's folder. Do not share client branding or link to another client's concept.
 - Keep research and review evidence locally, outside the deployment allowlist. Never publish credentials, private correspondence, analytics exports, or confidential materials. This repository is public, including its history.
 - Prefer plain HTML, CSS, and JavaScript. Add a framework or build dependency only when the concept needs it. GitHub Pages has no application server.
-- All local URLs must work under /concepts/<client-slug>/ and on nested pages. Prefer relative asset paths. No localhost URLs, machine paths, root-relative asset paths, or SPA history fallback assumptions.
+- All local URLs must work under /<client-slug>/ on the custom domain, under /concepts/<client-slug>/ for local previews and the GitHub address, and on nested pages. Prefer relative asset paths. No localhost URLs, machine paths, root-relative asset paths, or SPA history fallback assumptions.
 
 ## Design and behavior
 
